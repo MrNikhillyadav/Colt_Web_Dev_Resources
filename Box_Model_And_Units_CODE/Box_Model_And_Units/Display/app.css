@@ -1,0 +1,50 @@
+span {
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 500px;
+    padding: 50px;
+    margin: 50px;
+}
+
+
+h1 {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    width: 300px;
+    padding: 50px;
+    margin: 100px;
+}
+
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(254, 153, 0);
+    border: 5px solid black;
+    display: inline-block;
+    margin: 50px;
+
+}
+/*  flex use krne k liye pehle 2-3 jo box h unko kisi ek container 
+    me rkhna hoga tabhi flex property apply kr payebge */
+    
+.div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div:nth-of-type(1){
+    background-color: rgb(247, 134, 21);
+    
+}
+div:nth-of-type(2){
+    background-color: rgba(217, 214, 214, 0.74);
+    
+}
+div:nth-of-type(3){
+    background-color: rgb(4, 224, 48);
+}
+
+

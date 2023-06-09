@@ -1,0 +1,21 @@
+img{
+    width: 30%;
+    margin: calc(10%/6);
+}
+
+nav{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: .2rem;
+    font-weight: 700;
+    margin-left: calc(10%/6);
+    border-bottom: 2px solid rgb(248, 248, 248);
+    width: 30%;
+    padding:1.2em 0;
+    
+}
+
+body{
+    background-color: rgba(214, 215, 216, 0.488);
+   
+}
